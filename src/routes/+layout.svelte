@@ -40,14 +40,21 @@
 		justify-content: center;
 		align-items: center;
 		padding: 12px;
+		background: rgba(1, 22, 39, 1);
 	}
 
 	footer a {
 		font-weight: bold;
 	}
 
+	footer p {
+		font-size: 0.9rem;
+		color: white;
+	}
+
 	@media (min-width: 480px) {
 		footer {
+			min-height: 50px;
 			padding: 12px 0;
 		}
 	}
